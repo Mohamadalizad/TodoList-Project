@@ -1,0 +1,23 @@
+body{
+    font-family: 'Vazir' , serif;
+}
+.list-group-item > span,
+.list-group-item > img{
+    cursor: pointer;
+}
+video{
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+}
+input{
+    border-color: inherit !important;
+}
+.svg-style{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: red;
+}

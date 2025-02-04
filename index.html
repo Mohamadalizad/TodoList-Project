@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="./media/fonts/Vazir.css">
+    <link rel="stylesheet" href="./media/cdn/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- start todoList -->
+        <div class="w-50 my-3 mx-auto ">
+            <!-- title todo -->
+            <h2 id="header" class="text-center text-light mt-5">Todos</h2>
+            <div id="actions" class="text-center mb-3">
+                <!-- add todos -->
+                <a class="btn btn-primary" data-action="add">add</a>
+                <!-- search todos -->
+                <a class="btn btn-success" data-action="search">search</a>
+            </div>
+            <div id="form-wrapper" class="mb-3">
+            </div>
+            <ul class="list-group p-0" id="todos-list">
+                <!-- todos layout -->
+                <li class="list-group-item justify-content-between d-flex"><span>Dapibus ac facilisis in</span>
+                    <img src="./media/delete.png" alt="delete icon">
+                </li>
+                <li class="list-group-item justify-content-between d-flex"><span>Dapibus ac facilisis in</span>
+                    <img src="./media/delete.png" alt="delete icon">
+                </li>
+                <li class="list-group-item justify-content-between d-flex"><span>Morbi leo risus</span>
+                    <img src="./media/delete.png" alt="delete icon">
+                </li>
+                <li class="list-group-item justify-content-between d-flex"><span>Porta ac consectetur ac</span>
+                    <img src="./media/delete.png" alt="delete icon">
+                </li>
+                <li class="list-group-item justify-content-between d-flex"><span>Vestibulum at eros</span>
+                    <img src="./media/delete.png" alt="delete icon">
+                </li>
+            </ul>
+        </div>
+        <!-- end todoList -->
+    </div>
+
+    <video loop autoplay muted >
+        <source src="./media/cut.mp4" type="video/mp4">
+    </video>
+
+    <script src="./../js and css cdn/JS/bootstrap.bundle.min.js"></script>
+    <script src="./todos.js"></script>
+</body>
+
+</html>

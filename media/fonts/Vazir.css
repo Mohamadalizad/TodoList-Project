@@ -1,0 +1,7 @@
+@font-face{
+    font-family:"Vazir";
+    /* src:url(./fonts/webfonts/Vazirmatn-SemiBold.eot)  format("embedded-opentype"); */
+    src:url(./webfonts/Vazirmatn-Bold.woff2);
+    src:url(./webfonts/Vazirmatn-Bold.woff2) format("woff2");
+    font-weight: 600;
+}
